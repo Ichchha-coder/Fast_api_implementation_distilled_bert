@@ -1,0 +1,37 @@
+# Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+myenv/
+
+# Environment variables
+.env
+
+# Model files (optional)
+models/*.safetensors
+models/*.bin
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Uvicorn log files
+*.log
